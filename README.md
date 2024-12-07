@@ -22,35 +22,24 @@ This project demonstrates an interactive 3D globe visualization using React and 
 1. Clone the repository:
 git clone https://github.com/your-username/globe-rendering-experiments.git
 
-Code
-CopyInsert
 
 2. Navigate to the project directory:
 cd globe-rendering-experiments
 
-Code
-CopyInsert
-
 3. Install dependencies:
 npm install
-
-Code
-CopyInsert
 
 ### Running the Application
 
 To start the development server:
 npm start
 
-Code
-CopyInsert
-
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Project Structure
 
 - `src/App.js`: Main application component
-- `src/GlobeHeader.js`: Globe visualization component
+- `src/GlobeHeaderDesign.js`: Globe visualization component, there are several, check App.js to change the globe you are viewing by changing the number of the referenced design
 - `src/index.js`: Entry point of the React application
 - `public/index.html`: HTML template
 
